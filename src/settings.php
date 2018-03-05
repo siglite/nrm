@@ -9,6 +9,11 @@ return [
             'template_path' => __DIR__ . '/../templates/',
         ],
 
+        // Renderer settings
+        'twig' => [
+            'template_path' => __DIR__ . '/../views/',
+        ],
+
         // Monolog settings
         'logger' => [
             'name' => 'slim-app',
